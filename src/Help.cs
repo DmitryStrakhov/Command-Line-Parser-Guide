@@ -6,7 +6,7 @@ using NUnit.Framework;
 namespace CommandLineParserGuide;
 
 [TestFixture]
-public class HelpTests {
+public class Help {
     [Test, Explicit]
     public void Test() {
         string[] args = "--invalid-command".Split();

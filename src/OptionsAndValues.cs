@@ -6,7 +6,7 @@ using NUnit.Framework;
 namespace CommandLineParserGuide;
 
 [TestFixture]
-public class OptionsAndValuesTests {
+public class OptionsAndValues {
     [Test]
     public void Test() {
         string[] args = "Val1 Val2 --int 3 -b -e Opt1 Opt2".Split();

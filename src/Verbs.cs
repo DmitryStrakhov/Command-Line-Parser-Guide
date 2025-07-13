@@ -7,7 +7,7 @@ using NUnit.Framework;
 namespace CommandLineParserGuide;
 
 [TestFixture]
-public class VerbsTests {
+public class Verbs {
     [Test]
     public void OpenVerbTest() {
         string[] args = @"open c:\temp -f -b".Split();
